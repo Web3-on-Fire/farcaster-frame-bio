@@ -1,5 +1,5 @@
 async function fetchProfileData() {
-    const apiUrl = 'https://api.web3.bio/profile/0xhashbrown.eth';
+    const apiUrl = 'https://api.web3.bio/profile/web3onfire.eth';
     try {
         const response = await fetch(apiUrl);
         const profiles = await response.json();
